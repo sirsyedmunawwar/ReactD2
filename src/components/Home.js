@@ -2,6 +2,8 @@ import Ach from "./Ach"
 import Ach1 from "./Ach1"
 import css from "./home.css"
 import Hz from "./Hz"
+import Ach2 from "./Ach2"
+import Ach3 from "./Ach3"
 
 
 export default function Home(props) {
@@ -45,31 +47,51 @@ export default function Home(props) {
             <div className="top">
                 <div className="left">
                     <Ach1 />
+
+                    <div className="arrowdiv">
+                        <div className="downarrow"></div>
+                        <div className="arrow">LOAD MORE</div>
+                    </div>
+
                     <div className="verticalGallerybottom">
-                        <h1>
+                        <h1 className="vgbtitle" >
                             Title of Vertical Gallery
                         </h1>
-                        <p> Travel / August 21 2017</p>
+                        <p className="vgbdate"> Travel / August 21 2017</p>
                     </div>
-                    <div>
-                        <h1 className="latest">
-                            Latest Stories
-                        </h1>
-                        <hr className="latesthr" />
-                    </div>
+
 
 
                 </div>
                 <div className="right" >
-                    <div className="adv">
+                    <div className="advdiv">
+                        <div className="adv" >
+                            Advertistement
+                        </div>
 
                     </div>
-                   
+                    <div>
+                        <h1 className="latest">
+                            Top Posts
+                        </h1>
+                        <hr className="topposthr" />
+                    </div>
+                    <Ach3/>
+
                 </div>
             </div>
-            <Hz/>
-            <Ach1 />
-            
+            <div>
+                <h1 className="latest">Latest Stories</h1>
+                <hr className="latesthr" />
+            </div>
+            <Hz />
+            <Ach2 />
+            <Hz />
+            <div className="arrowdiv">
+                <div className="arrow">VIEW MORE</div>
+                <div className="rightarrow"></div>
+            </div>
+
             <div />
         </>
     )
