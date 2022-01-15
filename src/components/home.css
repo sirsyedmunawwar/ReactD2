@@ -4,7 +4,7 @@
     background-image: url(Assets/Tree.jpg);
 }
 .homeimages{
-    width: 90%;
+    width: 90vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -25,7 +25,7 @@
     grid-row-end: 3;
     border-radius:7px;
     opacity:0.9;
-    background-color: #F08080;
+   border: 1px solid #F0F0F0;
 }
 .titleofvg{
     font-family: 'Montserrat', sans-serif;
@@ -48,7 +48,7 @@
 .verticalGallerybottom{
     height: 75vh;
     width: 55vw;
-    background-image: url(Assets/centertree.jpg);
+    background-image: url(https://images.unsplash.com/photo-1640868618785-5f5db98d0f76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
     background-position: cover;
     background-repeat: no-repeat;
     border-radius:3px;
@@ -75,7 +75,7 @@
     background-image: url(Assets/cover.jpg);
     background-position: 100%;
     background-repeat: no-repeat;
-    background-color: pink;
+    border: 1px solid #F0F0F0;
     width: 24vw;
     height: 40vh;
     opacity:0.9;
@@ -107,7 +107,8 @@
     height: 40vh;
     opacity:0.9;
     border-radius:7px;
-    background-color: pink;
+    border: 1px solid #F0F0F0;
+
 }
 .latest{
     font-family: 'Montserrat', sans-serif;
@@ -116,6 +117,7 @@
     font-weight: 400;
 }
 .latesthr{
+    margin-bottom: 2vh;
     width: 6.5vw;
     height: 3px;
     background-color: #F08080;
@@ -195,24 +197,28 @@ margin-left: 1.2vw;
 
 .leftdiv{
     display: flex;
-    justify-content: space-evenly;
 }
 
 .imagediv{
-    width:24vw;
+    height: 15vw;
+    width:20vw;
+    margin: 15px 0px;
     border-radius: 2px;
+    margin-left: 40px;
+    margin-right: 70px;
 }
 .contentdiv{
-    width: 24vw;
+    
+    width: 20vw;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     margin-left: -10px;
 
 
 }
 .arrowdiv{
     height: 20px;
-    margin-top: 40px;
+    margin: 40px 0px;
     margin-left: 5vw;
 }
 
@@ -247,10 +253,15 @@ margin-left: 1.2vw;
     top: -4px;
 }
 .bottomheading{
-font-size: 26px;
+font-size: 22px;
+width: 20vw;
+font-family: 'Montserrat', sans-serif;
+
+
 }
 .bottomdesc{
     color: #908D8D;
+    margin: 30px 0px ;
 }
 .bottomspan1{
     color: #404040;
@@ -287,9 +298,10 @@ font-size: 26px;
  width: 58vw;
     
     }
+   
 .advdiv{
-    /* margin-top: 3.4vh; */
-    height: 1000px;
+    margin-top: 3vh;
+    height: 120vh;
     border: 3px solid #F0F0F0;
     display: flex;
     justify-content: center;
@@ -319,39 +331,39 @@ margin-right: 1.7vw;
 }
 .rightdivmain:first-child .rightdivimage{
     
-    width:24vw;
-    height: 20vw;
+    width:26vw;
+    height: 16vw;
     
 }
+.rightdivmain:first-child .rightheading{
+    width: 20vw;
+    margin: 25px 0px;
+}
+
+
 .rightdivmain:first-child{
     display: initial;
 }
 
 
-    .rightheading{
+.rightheading{
     font-size: 24px;
-    background-color: aqua;
   
-    }
+}
    
-    .rightspan1{
-        color: #404040;
-    }
-    .rightspan2{
-        color: #404040;
-        opacity: 0.24;
-    }
-    .rightcontentdiv{
-        font-family: 'Open Sans', sans-serif;
-        font-size: 18px;
-        margin-left: -40px;
-    
-    
-    }
+.rightspan1{
+    color: #404040;
+}
+.rightspan2{
+    color: #404040;
+    opacity: 0.24;  
+}
+.rightcontentdiv{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-left: -40px;
+}
    
-
-
-
 .bottom{
     display: flex;
     justify-content: space-evenly;
