@@ -175,9 +175,9 @@ font-size: 30px;
 font-weight: 300;
 width: 85%;
 margin-left: 1.2vw; 
-
-
 }
+
+
 .leftSidedetails{
     color: #908D8D;
     font-family: 'Open Sans', sans-serif;
@@ -368,4 +368,15 @@ margin-right: 1.7vw;
     display: flex;
     justify-content: space-evenly;
 
+}
+.minushr{
+    height: 3px; 
+    background-color: #F0F0F0;
+    box-shadow: none;
+    margin:20px 0px;
+    border: none;
+   
+}
+.minushr:last-child{
+display: none;
 }

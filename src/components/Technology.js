@@ -1,7 +1,9 @@
+import Page from "./Page"
 function Technology(){
     return(
         <>
-        <h1>Technology</h1>
+       
+        <Page/>
         </>
     )
 }

@@ -1,0 +1,151 @@
+
+.smalltitle{
+    display: flex;
+    box-shadow: 0px 3px 6px #00000029;
+    height: 15vh;
+
+}.smallsiren{
+    font-family:'Montserrat',sans-serif;
+    font-weight: bold;
+    font-size:45px;
+    position: relative;
+    top: -10px;
+}
+.smallthe{
+    transform: rotate(-90deg);
+    font-family: 'Montserrat', sans-serif;
+    font-size:22px;
+    font-weight:500;
+    margin-right:10px;
+    margin-left: 10px;
+    position:relative;
+    right:-20px
+    
+   
+}
+.button{
+width: 120px;
+height: 40px;
+font-size: 16px;
+font-family: 'Open Sans', sans-serif;
+color: #03A87C;
+background-color: #ffffff;
+border: 1px solid #03A87C;
+margin-left: 60vw;
+margin-top: 6vh;
+position:relative;
+top:-20px
+}
+.reacthead{
+    display: flex;
+}
+.fixed{
+    height: 100vh;
+    width: 20vw;
+    background-color: aqua;
+}
+
+.notfixed{
+    height: 100vh;
+    width: 55vw;
+    background-color: pink;
+}.five{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+padding-left: 6px;
+padding-right: 8px;
+
+    font-size: 36px;
+}
+.fiveways{
+    display: inline-block;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+letter-spacing: 0px;
+color: #000000;
+}
+.reactimage{
+    background-repeat: no-repeat;
+    width: 48vw;
+    background-position: center;
+height: 60vh;
+background-image: url(./Assets/react.png);
+background-color:yellow;
+}
+.reactpara{
+    font-size: 16px;
+color: #000000;
+font-family: Georgia, 'Times New Roman', Times, serif;
+width: 47vw;
+
+}
+.reactcode{
+    width: 48vw;
+    height: 50vw;
+    background-image: url(./Assets/code.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.buttonsdiv{
+    margin-top: 35px;
+    display: flex;
+}
+.threebuttons{
+    margin-right: 10px;
+font: normal normal normal 15px/30px Open Sans;
+text-align: center;
+letter-spacing: 0px;
+color: #A2A2A2;
+opacity: 1;
+padding: 0px 8px;
+
+height: 33px;
+background-color: #f2f2f2;
+opacity: 1;
+}
+.share{
+   padding: 15px 0px;
+    display: flex;
+}
+.clapimage{
+    width: 40px;
+    height: 40px;
+    background: transparent url(./Assets/share.svg) 0% 0% no-repeat padding-box;
+}
+.clapcount{
+font: normal normal normal 16px/25px Open Sans;
+color: #939393;
+opacity: 1;
+width: 100px;
+height: 30px;
+padding-top: 5px;
+}
+.authordiv{
+    display: flex;
+}
+.image{
+    width: 110px;
+    height: 110px;
+    background-image: url(./Assets/author.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.details{
+   width: 200px;
+   height: 110px;
+    padding-top: 25px;
+    padding-left: 20px;
+   
+
+}
+.authorname{
+    opacity: 0.8;
+color: #000000;
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+}
+.datedetails{
+font-family: 'Open Sans', sans-serif;
+color: #A2A2A2;
+font-size: 14px;
+}

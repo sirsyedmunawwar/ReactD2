@@ -1,5 +1,4 @@
 import React from 'react'
-import Hz from './Hz'
 
 export default function Ac3(props) {
     return (
@@ -20,7 +19,7 @@ export default function Ac3(props) {
                             <span className='rightspan2' >{any.date1}</span>
                         </div>
                     </div>
-                    <Hz className="hellohr"/>
+                    <hr className="minushr"/>
 
 
 
