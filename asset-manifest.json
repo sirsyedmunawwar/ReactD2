@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ReactD2/static/css/main.07db18d5.css",
+    "main.js": "/ReactD2/static/js/main.b139a461.js",
+    "static/media/Tree.jpg": "/ReactD2/static/media/Tree.bb11bd361c5fea2e79a2.jpg",
+    "static/media/code.png": "/ReactD2/static/media/code.06f8231c740f57ce3be8.png",
+    "static/media/centertree.jpg": "/ReactD2/static/media/centertree.970d067424c7e1477d05.jpg",
+    "static/media/react.png": "/ReactD2/static/media/react.182c350a8e57c86d708c.png",
+    "static/media/cover.jpg": "/ReactD2/static/media/cover.2739dec2fe7c1b8727e0.jpg",
+    "static/media/rythm.svg": "/ReactD2/static/media/rythm.e2ac8e31c772f0dd8011.svg",
+    "index.html": "/ReactD2/index.html",
+    "static/media/share.svg": "/ReactD2/static/media/share.a783c160e8bda4cd19d8.svg",
+    "static/media/arrow.svg": "/ReactD2/static/media/arrow.96127461dbc643d65bf3.svg",
+    "static/media/arrow (1).svg": "/ReactD2/static/media/arrow (1).28855ee752d7c31d6c32.svg",
+    "main.07db18d5.css.map": "/ReactD2/static/css/main.07db18d5.css.map",
+    "main.b139a461.js.map": "/ReactD2/static/js/main.b139a461.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07db18d5.css",
+    "static/js/main.b139a461.js"
+  ]
+}
