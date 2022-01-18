@@ -3,6 +3,11 @@
     background-color: aquamarine;
     background-image: url(Assets/Tree.jpg);
 }
+.postforall{
+    text-decoration: none;
+    color: #000000;
+    opacity: 0.9;
+}
 .homeimages{
     width: 90vw;
     display: grid;

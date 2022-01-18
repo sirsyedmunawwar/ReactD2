@@ -1,8 +1,8 @@
-import css from "./page.css"
+import css from "./Post.css"
 import Author from "./Author"
 import Hz from "./Hz"
 import ArHforReact from "./ArHforReact"
-export default function Page() {
+export default function Post() {
     return (
         <>
             <div className="smalltitle">

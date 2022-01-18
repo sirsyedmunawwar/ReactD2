@@ -17,6 +17,7 @@ function Header(){
        <NavLink className="navitem" to="/hollywood">Hollywood</NavLink>
        <NavLink className="navitem" to="/fitness">Fitness</NavLink>
        <NavLink className="navitem" to="/food">Food</NavLink>
+       
        </div>
        <Hz/>
        

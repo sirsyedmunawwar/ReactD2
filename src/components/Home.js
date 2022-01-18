@@ -4,11 +4,14 @@ import css from "./home.css"
 import Hz from "./Hz"
 import Ach2 from "./Ach2"
 import Ach3 from "./Ach3"
+import { Link} from "react-router-dom"
+import Header from "./Header"
 
 
 export default function Home(props) {
     return (
         <>
+        <Header />
             <div className="homeimages">
                 <div className="verticalGallery">
                     <h1 className="titleofvg">
@@ -35,9 +38,9 @@ export default function Home(props) {
                 </h1>
                 <hr className="latesthr" />
             </div>
-            <Ach />
+          
 
-
+            <Link className="postforall" to="/post"><Ach /></Link>
             <div>
                 <h1 className="latest">
                     Latest Article
@@ -46,7 +49,7 @@ export default function Home(props) {
             </div>
             <div className="top">
                 <div className="left">
-                    <Ach1 />
+                <Link className="postforall" to="/post"><Ach1 /></Link>
 
                     <div className="arrowdiv">
                         <div className="downarrow"></div>
@@ -76,7 +79,7 @@ export default function Home(props) {
                         </h1>
                         <hr className="topposthr" />
                     </div>
-                    <Ach3/>
+                    <Link className="postforall" to="/post"><Ach3/></Link>
 
                 </div>
             </div>
@@ -85,7 +88,7 @@ export default function Home(props) {
                 <hr className="latesthr" />
             </div>
             <Hz />
-            <Ach2 />
+            <Link className="postforall" to="/post"><Ach2/></Link>
             <Hz />
             <div className="arrowdiv">
                 <div className="arrow">VIEW MORE</div>

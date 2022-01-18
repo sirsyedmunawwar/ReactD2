@@ -1,10 +1,11 @@
-import Page from "./Page"
-function Technology(){
-    return(
-        <>
-       
-        <Page/>
-        </>
-    )
+import Header from "./Header";
+
+function Technology() {
+  return (
+    <>
+      <Header />
+      <h1>Technology</h1>
+    </>
+  );
 }
-export default Technology
+export default Technology;
