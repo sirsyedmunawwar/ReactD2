@@ -17,6 +17,7 @@
     grid-column-gap:1vw;
     margin-top:60px;
     margin-bottom: 100px;
+    margin-right: none;
 }
 .verticalGallery{
     height: 82.5vh;
@@ -276,7 +277,8 @@ font-family: 'Montserrat', sans-serif;
     opacity: 0.24;
 }
 .bottomarticle{
-    
+    width: 90vw;
+    background-color: aqua;
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-between;
