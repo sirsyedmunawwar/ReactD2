@@ -6,6 +6,7 @@ import Hollywood from "./components/Hollywood"
 import Home from "./components/Home"
 import Technology from "./components/Technology"
 import Post from "./components/Post"
+import ScrollToTop from "./components/ScrollToTop"
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
 
             <BrowserRouter>
                 
-                
+            <ScrollToTop/>
                 <Routes>
                     <Route path="/" element={<Home />}></Route>
                     <Route path="/bollywood" element={<Bollywood />}></Route>
