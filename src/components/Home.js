@@ -1,11 +1,13 @@
-import Ach from "./Ach"
-import Ach1 from "./Ach1"
 import css from "./home.css"
 import Hz from "./Hz"
-import Ach2 from "./Ach2"
-import Ach3 from "./Ach3"
 import { Link} from "react-router-dom"
 import Header from "./Header"
+import content from "./contentForHome.json"
+import TheLatest from "./TheLatest"
+import LatestArticle from "./latestArticle"
+import LatestStories from "./LatestStories"
+import TopPost from "./TopPost";
+
 
 
 export default function Home(props) {
@@ -39,8 +41,9 @@ export default function Home(props) {
                 <hr className="latesthr" />
             </div>
           
+          
 
-            <Link className="postforall" to="/post"><Ach /></Link>
+            <Link className="postforall" to="/post"> <TheLatest updater={content.TheLatest}/></Link>
             <div>
                 <h1 className="latest">
                     Latest Article
@@ -49,7 +52,8 @@ export default function Home(props) {
             </div>
             <div className="top">
                 <div className="left">
-                <Link className="postforall" to="/post"><Ach1 /></Link>
+                <Link className="postforall" to="/post"><LatestArticle updater={content.LatestArticle}/>
+</Link>
 
                     <div className="arrowdiv">
                         <div className="downarrow"></div>
@@ -79,7 +83,8 @@ export default function Home(props) {
                         </h1>
                         <hr className="topposthr" />
                     </div>
-                    <Link className="postforall" to="/post"><Ach3/></Link>
+                    <Link className="postforall" to="/post"><TopPost updater={content.TopPost}/>
+</Link>
 
                 </div>
             </div>
@@ -88,7 +93,7 @@ export default function Home(props) {
                 <hr className="latesthr" />
             </div>
             <Hz />
-            <Link className="postforall" to="/post"><Ach2/></Link>
+            <Link className="postforall" to="/post"><LatestStories updater={content.LatestStories}/></Link>
             <Hz />
             <div className="arrowdiv">
                 <div className="arrow">VIEW MORE</div>

@@ -1,11 +1,11 @@
 import React from 'react'
 
-export default function Ac3(props) {
+export default function ThePost(props) {
     return (
         
         <div className="rightdiv" >
  
-            {props.updater3.map((any) =>
+            {props.updater.map((any) =>
                 <>
 
                   

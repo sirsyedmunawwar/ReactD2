@@ -1,11 +1,11 @@
 import React from 'react'
 import Hz from './Hz'
 
-export default function Ac2(props) {
+export default function LatestStories(props) {
     return (
         <>
             <div className='bottomarticle'>
-                {props.updater2.map((any) =>
+                {props.updater.map((any) =>
                     <>
 
 

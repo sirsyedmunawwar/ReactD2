@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Ac(props) {
+export default function TheLatest(props) {
     return (
         <div className="leftSide">
         {props.updater.map((item) =>

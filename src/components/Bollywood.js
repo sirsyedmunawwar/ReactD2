@@ -1,9 +1,9 @@
-import Ach3 from "./Ach3"
 import ArticleForBollywoodHolder from "./ArticleForBollywoodHolder"
 import cssstyles from "./bollywood.css"
 import Header from "./Header"
 import { Link} from "react-router-dom"
-
+import TopPost from './TopPost'
+import content from './contentForHome.json'
 
 
 function Bollywood(props) {
@@ -26,10 +26,6 @@ function Bollywood(props) {
                         <div className="downarrow"></div>
                         <div className="arrow">LOAD MORE</div>
                     </div>
-
-
-
-
                 </div>
                 <div className="right" >
 
@@ -39,7 +35,7 @@ function Bollywood(props) {
                         </h1>
                         <hr className="tophr" />
                     </div>
-                    <Link className="postforall" to="/post"><Ach3/></Link>
+                    <Link className="postforall" to="/post"><TopPost updater={content.TopPost}/></Link>
                     <div className="bollywoodadv">
                         <div className="adv" >
                             Advertistement
