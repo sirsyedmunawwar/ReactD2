@@ -1,9 +1,8 @@
-import ArticleForBollywoodHolder from "./ArticleForBollywoodHolder"
+import ArticleForBollywoodHolder from "../components/ArticleForBollywood"
 import cssstyles from "./bollywood.css"
-import Header from "./Header"
+import Header from "../Header/Header"
 import { Link} from "react-router-dom"
-import TopPost from './TopPost'
-import content from './contentForHome.json'
+
 
 
 function Bollywood(props) {
@@ -20,14 +19,14 @@ function Bollywood(props) {
                 <hr className="bollywoodhr" />
             </div>
                     
-                    <Link className="postforall" to="/post"><ArticleForBollywoodHolder /></Link>
+                    {/* <Link className="postforall" to="/post"><ArticleForBollywoodHolder /></Link> */}
 
                     <div className="arrowdiv">
                         <div className="downarrow"></div>
                         <div className="arrow">LOAD MORE</div>
                     </div>
                 </div>
-                <div className="right" >
+                {/* <div className="right" >
 
                     <div>
                         <h1 className="latest">
@@ -43,7 +42,7 @@ function Bollywood(props) {
 
                     </div>
 
-                </div>
+                </div> */}
             </div>
 
 
